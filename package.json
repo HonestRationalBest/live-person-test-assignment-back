@@ -6,7 +6,8 @@
   "scripts": {
     "start": "nodemon",
     "build": "tsc",
-    "serve": "node dist/server.js"
+    "serve": "node dist/server.js",
+    "heroku-postbuild": "npm run build"
   },
   "keywords": [],
   "author": "",
